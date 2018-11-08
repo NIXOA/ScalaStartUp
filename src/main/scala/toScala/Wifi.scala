@@ -19,7 +19,7 @@ class Wifi(name:String) {
 
     }
 
-  def atOffice(): Unit={
+ /* def atOffice(): Unit={
     println("-----at the office----")
     implicitly def officeNetWork: Wifi=new Wifi("office-network")
     val cafeteriaNetwork=new Wifi("cafe-connect")
@@ -27,7 +27,7 @@ class Wifi(name:String) {
     connectionToNetWork("gueset")(cafeteriaNetwork)
     connectionToNetWork("Jill Coder")
     connectionToNetWork("John Hacker")
-  }
+  }*/
 
 
 }

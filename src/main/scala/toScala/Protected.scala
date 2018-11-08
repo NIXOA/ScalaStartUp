@@ -18,7 +18,7 @@ class Protected {
     }
     def two(vehicle: Vehicle): Unit ={
       //编译错误，不能在Car的实例中通过Vehicle的实例访问
-      vehicle.checkEngine();
+     // vehicle.checkEngine();
     }
   }
 
